@@ -1,0 +1,18 @@
+===== NAT Demonstration Output =====
+Date: Tue Jan  6 04:44:04 PM IST 2026
+
+Command Executed:
+./nat_check.sh
+
+Private IP(s) on this machine:
+    inet6 ::1/128 scope host noprefixroute 
+    inet 192.168.0.106/24 brd 192.168.0.255 scope global dynamic noprefixroute wlp0s20f3
+    inet6 2406:b400:3a:34e8:7b93:af76:c56:9aeb/64 scope global temporary dynamic 
+    inet6 2406:b400:3a:34e8:9fa3:b5af:9ca0:9410/64 scope global dynamic mngtmpaddr noprefixroute 
+    inet6 fe80::f7ef:6c62:16b8:bb3d/64 scope link noprefixroute 
+
+Public IP seen by the internet:
+2406:b400:3a:34e8:7b93:af76:c56:9aeb
+
+Conclusion:
+Outbound traffic from a private IP is translated to a public IP using NAT.
